@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="birth_day">22</integer>
+    <integer name="birth_month">5</integer>
+    <integer name="birth_year">2020</integer>
+</resources>

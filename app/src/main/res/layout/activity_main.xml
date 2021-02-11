@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/user_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnSiteWebExt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/View_SiteWeb_Ext"
+        android:onClick="displayWebExt"
+        app:layout_constraintEnd_toEndOf="@+id/textViewName"
+        app:layout_constraintStart_toStartOf="@+id/textViewName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewName" />
+
+    <Button
+        android:id="@+id/btnSiteWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="72dp"
+        android:text="@string/View_SiteWeb_Wv"
+        android:onClick="displayWebView"
+        app:layout_constraintEnd_toEndOf="@+id/btnSiteWebExt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/btnSiteWebExt"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiteWebExt" />
+
+    <Button
+        android:id="@+id/btnUlaval"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:text="@string/ulaval"
+        android:onClick="displayUlavalActivity"
+        app:layout_constraintEnd_toEndOf="@+id/btnSiteWebView"
+        app:layout_constraintHorizontal_bias="0.437"
+        app:layout_constraintStart_toStartOf="@+id/btnSiteWebView"
+        app:layout_constraintTop_toBottomOf="@+id/btnSiteWebView" />
+
+    <Button
+        android:id="@+id/btnProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="84dp"
+        android:text="@string/profil"
+        android:onClick="displayProfil"
+        app:layout_constraintEnd_toEndOf="@+id/btnUlaval"
+        app:layout_constraintHorizontal_bias="0.285"
+        app:layout_constraintStart_toStartOf="@+id/btnUlaval"
+        app:layout_constraintTop_toBottomOf="@+id/btnUlaval" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="user_name">Jean de Dieu Uwimana</string>
+    <string name="View_SiteWeb_Ext">Site Web(ext)</string>
+    <string name="View_SiteWeb_Wv">Site Web(wv)</string>
+    <string name="ulaval">Ulaval</string>
+    <string name="profil">Mon Profil</string>
+    <string name="btnClose">Ferme</string>
+    <string name="url_web">https://monportail.ulaval.ca</string>
+    <string name="promLabel">Prénom: </string>
+    <string name="nomLabel">Nom de famille: </string>
+    <string name="dateLabel">Date de Naissance: </string>
+    <string name="idulLabel">IDUL: </string>
+    <string name="prenom">Jean de Dieu</string>
+    <string name="nom">Uwimana</string>
+    <string name="idul">JDUWI</string>
+
+
+
+</resources>
